@@ -1,0 +1,24 @@
+<html>
+	<body>
+		<h1>
+			회원가입
+		</h1>
+			<form action="#" method="POST">
+					<label for="user-name">이름</label><br/>
+				<input type="text" id="user-name" required placeholder="이름" /><br/>
+					<label for="user-id">아이디</label><br/>
+					<input type="text" id="user-id" required placeholder="아이디"
+minilength="5" maxlength="10" /><br/>
+					<label for="user-password">비밀번호</label><br/>
+					<input type="password" id="user-password" required placeholder="비밀번호" minilength="6" maxlength="12" /><br/>
+					<label for="user-email">이메일</label><br/>
+					<input type="email" id="user-email" required placeholder="이메일" /><br/>
+					<label for="user-tel">전화번호</label><br/>
+					<input type="tel" id="user-tel" required placeholder="전화번호 (***-****-****)" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" /><br/>
+					<label for="user-age">나이</label><br/>
+					<input type="number" id="user-age" required placeholder="만 나이" min="12" max="100"/><br/>
+					<label for="user-profile">프로필 사진</label><br/>
+					<input type="file" id="user-profile" accept="image/*, audio/*, video/*" />
+			</form>	
+	</body>	
+</html>
