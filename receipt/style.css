@@ -73,7 +73,6 @@ body > h1,
 }
 
 .receipt > span {
-  order: 1;
   display: block;
   width: 100%;
   margin-bottom: 20px;
@@ -84,7 +83,6 @@ body > h1,
 }
 
 .receipt h2 {
-  order: 2;
   margin-bottom: 24px;
   font-size: 18px;
   font-weight: 600;
@@ -93,7 +91,6 @@ body > h1,
 }
 
 .receipt .barcode {
-  order: 3;
   width: 120px;
   margin-bottom: 32px;
 }
@@ -101,10 +98,6 @@ body > h1,
 .receipt img {
   width: 100%;
   height: auto;
-}
-
-.receipt > div {
-  order: 4;
 }
 
 .receipt dl {
